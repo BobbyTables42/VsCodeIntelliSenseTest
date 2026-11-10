@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "../",
+		},
+	],
+
+	"settings": {
+		"C_Cpp.loggingLevel": "Debug",
+		"files.exclude": {
+			// exclude everything
+			"*": true,
+
+			// allow only new project
+			"!NewProject/*": true,
+
+			// and allow .vscode folder
+			"!.vscode/*": true
+		}
+	}
+}
