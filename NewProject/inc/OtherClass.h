@@ -1,7 +1,8 @@
 #pragma once
 
-#include "NewClass.h"
-#include "Folder/ClassInFolder.h"
+
+class NewClass;
+class ClassInFolder;
 
 class OtherClass
 {
@@ -11,6 +12,6 @@ public:
     void doSomething();
 
 private:
-    NewClass newClass;
-    ClassInFolder classInFolder;
+    NewClass* pNewClass;
+    ClassInFolder* pClassInFolder;
 };
